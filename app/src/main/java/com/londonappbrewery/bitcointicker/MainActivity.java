@@ -58,8 +58,7 @@ public class MainActivity extends AppCompatActivity {
 //            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
 //                // called when response HTTP status is "200 OK"
 //                Log.d("Clima", "JSON: " + response.toString());
-//                WeatherDataModel weatherData = WeatherDataModel.fromJson(response);
-//                updateUI(weatherData);
+//
 //            }
 //
 //            @Override
@@ -68,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
 //                Log.d("Clima", "Request fail! Status code: " + statusCode);
 //                Log.d("Clima", "Fail response: " + response);
 //                Log.e("ERROR", e.toString());
-//                Toast.makeText(WeatherController.this, "Request Failed", Toast.LENGTH_SHORT).show();
 //            }
 //        });
 
